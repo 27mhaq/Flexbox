@@ -11,3 +11,16 @@ main {
     align-items: center;
     background-color: rgb(200, 225, 8);
 }
+
+h2 {
+    font-size: 3rem;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 64px;
+    flex-direction: row;
+    background-color: lightgreen;
+}
