@@ -1,5 +1,5 @@
 
-* {
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,7 +24,7 @@ h2 {
     color: white;
 }
 
-/* Task 2: Horizontal nav bar */
+
 nav ul {
     list-style-type: none;
     display: flex;
