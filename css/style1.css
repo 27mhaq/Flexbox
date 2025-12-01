@@ -34,28 +34,9 @@ nav ul {
     background-color: lightgreen;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
-}
-
-
-.vertical ul {
-    list-style: none;
+.vertical ul{
     display: flex;
     flex-direction: column;
-    background-color: #444;
-    width: 160px;
-    padding: 10px;
-    margin-top: 25px;
-}
-
-.vertical ul li {
-    padding: 10px 0;
-}
-
-.vertical ul li a {
-    color: white;
-    text-decoration: none;
+    gap: 16px;
+    list-style: none;
 }
