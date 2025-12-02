@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex2 ul, .flex3 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.rating {
+    margin-left: 36px;
+}
+
+
+.card {
+    height: 400px;
+    width: 200px;
+    margin: 300px auto;
+
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card-price {
+    width: 100%;
+    height: 80px;
+    background-color: magenta;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
