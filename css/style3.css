@@ -1,4 +1,3 @@
-
 html, body {
     height: 100%;
     margin: 0;
@@ -15,6 +14,8 @@ html, body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    border-style: solid;
+    
 }
 
 header,
@@ -23,6 +24,7 @@ footer {
     text-align: center;
     padding-top: 20px;
     font-size: 2rem;
+    border-style: solid;
 }
 
 
@@ -32,6 +34,7 @@ footer {
     flex-direction: row;
     align-items: stretch;
     justify-content: center;
+    border-style: solid;
 }
 
 
@@ -41,6 +44,8 @@ aside {
     padding: 20px;
     font-size: 1.5rem;
     text-align: center;
+    border-style: solid;
+
 }
 
 main {
@@ -48,4 +53,5 @@ main {
     padding: 20px;
     font-size: 1.8rem;
     text-align: center;
+    border-style: solid blue;
 }
